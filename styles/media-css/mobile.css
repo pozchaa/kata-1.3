@@ -27,16 +27,12 @@
   content: '';
 }
 
-.navigation__item-phone {
+.navigation__block-center {
   display: none;
 }
 
-.navigation__item-chat {
-  display: none;
-}
-
-.navigation__item-user {
-  display: none;
+.navigation__block-right {
+  width: 96px;
 }
 
 .title__body {
