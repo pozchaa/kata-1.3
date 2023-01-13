@@ -23,6 +23,11 @@
   cursor: pointer;
 }
 
+.navigation__item:hover {
+  border: 1px solid #ff3e79;
+  background-color: white;
+}
+
 .navigation__item-menu {
   background-image: url('../img-css/header/burger.svg');
 }
