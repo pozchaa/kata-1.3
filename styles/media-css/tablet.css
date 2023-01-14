@@ -81,12 +81,16 @@
   padding: 0 1.5em;
 }
 
+.main__text-body {
+  margin-right: 3em;
+}
+
 .main__text {
-  max-width: 320px;
+  width: 100%;
   margin-bottom: 0.61em;
 }
 
 .main__img {
   max-width: 360px;
-  border-radius:6px;
+  border-radius: 6px;
 }

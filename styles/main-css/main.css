@@ -32,6 +32,10 @@
   width: 100%;
 }
 
+.scroll-bar__block::-webkit-scrollbar {
+  width: 0;
+}
+
 .scroll-bar__item {
   height: 2.5rem;
   font-family: 'TT Lakes Regular';
@@ -48,6 +52,11 @@
   cursor: pointer;
 }
 
+.scroll-bar__item a {
+  text-decoration: none;
+  color: #7e7e82;
+}
+
 .scroll-bar__item:hover,
 .scroll-bar__item:focus {
   background: #ffffff;
@@ -62,6 +71,8 @@
 .scroll-bar__block::-webkit-scrollbar {
   display: none;
 }
+
+
 
 .main__text {
   font-family: 'TT Lakes Regular';
