@@ -1,0 +1,17 @@
+.service__body {
+  padding: 0 1.5em;
+  padding-bottom: 2em;
+}
+
+.service__title {
+  padding: 1em 1.5em;
+}
+
+.service__brands {
+  column-gap: 1.5em;
+  grid-template-columns: repeat(auto-fit, 223px);
+}
+
+.service__brand {
+  width: 224px;
+}

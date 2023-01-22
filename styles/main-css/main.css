@@ -36,6 +36,10 @@
   width: 0;
 }
 
+.scroll-bar__block::-moz-scrollbar {
+  width: 0;
+}
+
 .scroll-bar__item {
   height: 2.5rem;
   font-family: 'TT Lakes Regular';
@@ -72,7 +76,9 @@
   display: none;
 }
 
-
+.scroll-bar__block::-moz-scrollbar {
+  width: 0;
+}
 
 .main__text {
   font-family: 'TT Lakes Regular';

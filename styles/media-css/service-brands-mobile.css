@@ -1,0 +1,45 @@
+.mySwiper {
+  display: block;
+  width: 320px;
+  height: 114px;
+  background-color: #f8f8f8;
+  /* width: 320px;
+  height: 138px; */
+  /* padding: 0 1em !important; */
+}
+
+.swiper-wrapper {
+  box-sizing: border-box;
+  max-width: 240px !important;
+  padding: 0 1em;
+}
+
+.swiper-slide,
+.swiper-slide-active {
+  background-color: #f8f8f8;
+}
+
+.service {
+  background-color: #f8f8f8;
+  max-width: 320px;
+}
+
+.service__title {
+  background-color: #ffffff;
+  margin-bottom: 0.9em;
+  padding: 1em;
+}
+
+.service__brand button {
+  width: 28px;
+  height: 38px;
+}
+
+.service__body {
+  display: none;
+}
+
+.service__brand {
+  width: 240px;
+  margin-bottom: 0;
+}
