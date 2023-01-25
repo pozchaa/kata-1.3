@@ -29,7 +29,7 @@
 
 .service__brands {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 240px);
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   column-gap: 2em;
   height: 176px;
   overflow: hidden;
@@ -46,7 +46,7 @@
   border: 1px solid #eaeaea;
   border-radius: 6px;
 
-  width: 240px;
+  width: 100%;
   height: 72px;
   margin-bottom: 1em;
   padding: 0 1em;
