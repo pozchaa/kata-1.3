@@ -31,8 +31,8 @@
 }
 
 .swiper-pagination-bullet {
-  color: #DDDDDD !important;
-  background-color: #DDDDDD !important;
+  color: #dddddd !important;
+  background-color: #dddddd !important;
 }
 
 .swiper-pagination-bullet,
@@ -45,3 +45,29 @@
   color: #b5b6bc !important;
   background-color: #b5b6bc !important;
 }
+
+.mySwiper {
+  /* display: block; */
+  width: 100%;
+  height: 114px;
+  background-color: #f8f8f8;
+  /* width: 320px;
+  height: 138px; */
+  /* padding: 0 1em !important; */
+}
+
+.swiper-wrapper {
+  box-sizing: border-box;
+  /* max-width: 240px !important; */
+  padding-right: 1em;
+}
+
+.swiper-slide,
+.swiper-slide-active {
+  background-color: #f8f8f8;
+}
+
+/* .swiper {
+  width: 600px;
+  height: 300px;
+} */

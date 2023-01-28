@@ -3,10 +3,7 @@
   box-sizing: border-box;
 }
 
-.swiper {
-  width: 600px;
-  height: 300px;
-}
+
 
 .service__body {
   padding: 0 2em;
@@ -137,6 +134,6 @@
   background-image: url('../img-css/main/bottom-arrow-active.svg');
 }
 
-.mySwiper {
+/* .mySwiper {
   display: none;
-}
+} */
